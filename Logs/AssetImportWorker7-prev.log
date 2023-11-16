@@ -1,0 +1,1880 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'fr' Physical Memory: 14020 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Users/Quentin/Portail 3
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+58264
+Successfully changed project path to: C:/Users/Quentin/Portail 3
+C:/Users/Quentin/Portail 3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6164] Host "[IP] 192.168.230.1 [Port] 0 [Flags] 2 [Guid] 1151232544 [EditorId] 1151232544 [Version] 1048832 [Id] WindowsEditor(7,Quentin) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6164] Host "[IP] 192.168.230.1 [Port] 0 [Flags] 2 [Guid] 1151232544 [EditorId] 1151232544 [Version] 1048832 [Id] WindowsEditor(7,Quentin) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 16.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Quentin/Portail 3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1681)
+    Vendor:   ATI
+    VRAM:     7010 MB
+    Driver:   31.0.22023.1014
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013624 seconds.
+- Loaded All Assemblies, in  0.606 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.421 seconds
+Domain Reload Profiling: 1024ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (259ms)
+		LoadAssemblies (177ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (255ms)
+			TypeCache.Refresh (253ms)
+				TypeCache.ScanAssembly (234ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (422ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (303ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.706 seconds
+Refreshing native plugins compatible for Editor in 4.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.602 seconds
+Domain Reload Profiling: 1298ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (428ms)
+		LoadAssemblies (354ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (143ms)
+				TypeCache.ScanAssembly (125ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (602ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (431ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (327ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 3.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3570.
+Memory consumption went from 123.8 MB to 123.8 MB.
+Total: 4.401500 ms (FindLiveObjects: 0.402900 ms CreateObjectMapping: 0.341700 ms MarkObjects: 3.517800 ms  DeleteObjects: 0.137800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 335390.034758 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/floor_1_LOD1.fbx
+  artifactKey: Guid(c36834fa2d8d0504e9842a6454f207ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/floor_1_LOD1.fbx using Guid(c36834fa2d8d0504e9842a6454f207ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64a4f7a611c4323124b2bb741988d06d') in 0.149510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.602746 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/floor_2_L_LOD0.fbx
+  artifactKey: Guid(dd0e6c5981600b342aae11c813c53c17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/floor_2_L_LOD0.fbx using Guid(dd0e6c5981600b342aae11c813c53c17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80014d7f1407cc6b58d42bf5e5bf88ad') in 0.046854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.705705 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/floor_3.fbx
+  artifactKey: Guid(b7a322c99327cd54e93247179413bca8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/floor_3.fbx using Guid(b7a322c99327cd54e93247179413bca8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56262027108d8e167a2ea6f1927801d7') in 0.064573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.673640 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/floor_5.fbx
+  artifactKey: Guid(d33b92b4d2f9ca8409480ae83478fd61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/floor_5.fbx using Guid(d33b92b4d2f9ca8409480ae83478fd61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1212377e2a009c0073cc252f73ef8748') in 0.060554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.676990 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/frame_door_1.fbx
+  artifactKey: Guid(5ef3bd15c7a0fda4a917c80a4797b8aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/frame_door_1.fbx using Guid(5ef3bd15c7a0fda4a917c80a4797b8aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10b028684c05ea7ece2d52275f2e1f65') in 0.053644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.677181 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/frame_door_3_colision_mesh.fbx
+  artifactKey: Guid(e497b40124d368543a1971d44952f2d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/frame_door_3_colision_mesh.fbx using Guid(e497b40124d368543a1971d44952f2d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c4968fe7adc950946eb8bdd37a3e5a6') in 0.050982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.684506 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/glass_panel_1_with_door.fbx
+  artifactKey: Guid(1d8fb1d801abb5741a1a870b2e3986dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/glass_panel_1_with_door.fbx using Guid(1d8fb1d801abb5741a1a870b2e3986dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e70976a1bd8b230b786f0fb49643518d') in 0.034203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.677573 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Animations/door_1_open.anim
+  artifactKey: Guid(39fb454602ab93b4e9178987cb446212) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Animations/door_1_open.anim using Guid(39fb454602ab93b4e9178987cb446212) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc2d382b153f4254b5b21341097332bb') in 0.042452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/blank_wall_D.fbx
+  artifactKey: Guid(f2542f8a4907dc24d9a2eea57712af9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/blank_wall_D.fbx using Guid(f2542f8a4907dc24d9a2eea57712af9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01ee52d08074003074e36dccb858a0b4') in 0.046220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/column_middle.fbx
+  artifactKey: Guid(6c1e1578589b5f84c82931f52c63f41d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/column_middle.fbx using Guid(6c1e1578589b5f84c82931f52c63f41d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2ffdb8931ee2419bf737c085fa47359') in 0.054910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.002669 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/blank_wall_B.fbx
+  artifactKey: Guid(177afface069d0c47af680d3f8a5815e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/blank_wall_B.fbx using Guid(177afface069d0c47af680d3f8a5815e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7dd3e87afc4f13f85d512f5d6e5b9396') in 0.041898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/console_screen.fbx
+  artifactKey: Guid(2ca85bdcc81d8d24ba87f0f1135cf8fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/console_screen.fbx using Guid(2ca85bdcc81d8d24ba87f0f1135cf8fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4748e988b748d7729a2f43fcefccc085') in 0.038595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_4_LOD0.fbx
+  artifactKey: Guid(8cfadfd6f24381943ba7c84b556d77c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_4_LOD0.fbx using Guid(8cfadfd6f24381943ba7c84b556d77c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e32d1a0498a7342df0773ca0da57c6c') in 0.036229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/battery_medium.fbx
+  artifactKey: Guid(c1c48e1341ea35d4fa172cdb915ed140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/battery_medium.fbx using Guid(c1c48e1341ea35d4fa172cdb915ed140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96f176a8cad10e3eb87cc39ccce8cf82') in 0.030969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/console.fbx
+  artifactKey: Guid(7d22befb952c070459bc8f06ba0a5f84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/console.fbx using Guid(7d22befb952c070459bc8f06ba0a5f84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'baef6b71fb3a4dce77cf6896d70277bc') in 0.028144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_table_glass_only_top.fbx
+  artifactKey: Guid(ff8f8f75adfd48d4991367a973d14ad3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_table_glass_only_top.fbx using Guid(ff8f8f75adfd48d4991367a973d14ad3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4982c1de8f08d1a316392581f5774592') in 0.039964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_3_LOD1.fbx
+  artifactKey: Guid(7cf879aac24523744a5b0aad3fea1dbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_3_LOD1.fbx using Guid(7cf879aac24523744a5b0aad3fea1dbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ca00ef481cee0ed3d29dbcce3535109') in 0.040979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_4_LOD1.fbx
+  artifactKey: Guid(b57b8db81ab64b04c817c7c3feabc2a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_half_wall_4_LOD1.fbx using Guid(b57b8db81ab64b04c817c7c3feabc2a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '296c04f395bdf54423183b0464ae8603') in 0.040754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Animations/door_1_opened.anim
+  artifactKey: Guid(bf742d1db80eba8479bec92e01824c6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Animations/door_1_opened.anim using Guid(bf742d1db80eba8479bec92e01824c6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67a3e2b18024233be7250cc19bc95279') in 0.025967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_sofa_LOD0.fbx
+  artifactKey: Guid(fb39861b198df51498e189d15f1ebc9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_sofa_LOD0.fbx using Guid(fb39861b198df51498e189d15f1ebc9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37c3f39d4ac8b430b874bb60e1eb79c8') in 0.048104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/console_celing.fbx
+  artifactKey: Guid(a6a5e0bb41ac5234fb1d67dd58baab40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/console_celing.fbx using Guid(a6a5e0bb41ac5234fb1d67dd58baab40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac4fa570d9b4c14378c4332269f85976') in 0.037817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_table_no_glass.fbx
+  artifactKey: Guid(8ad22dca44fd0454983dd1151d42180b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_table_no_glass.fbx using Guid(8ad22dca44fd0454983dd1151d42180b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe6930cd92963096b2601f217014db38') in 0.046053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/hologram.mat
+  artifactKey: Guid(e305453a48fa58446882f6671dfa0d58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/hologram.mat using Guid(e305453a48fa58446882f6671dfa0d58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46c3d7abf2e362818a2ce660584e6d68') in 0.053057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/nature_ground.mat
+  artifactKey: Guid(71c78677fdc08394da7fd716fb41a991) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/nature_ground.mat using Guid(71c78677fdc08394da7fd716fb41a991) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c928e6165bdc57896e490a9a49447bb') in 0.025791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Example scenes/outpost on desert.unity
+  artifactKey: Guid(b42ca4c5c936383429d2318c931f7ad2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Example scenes/outpost on desert.unity using Guid(b42ca4c5c936383429d2318c931f7ad2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '526a8cedefcff30920102ff55c368ed3') in 0.016924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_plant.fbx
+  artifactKey: Guid(77481a7c618d8c14cbf3663b6c659704) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_plant.fbx using Guid(77481a7c618d8c14cbf3663b6c659704) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bad388e5d1f8ebcc48c9f33e311a799') in 0.036687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Textures/base-color-normal.png
+  artifactKey: Guid(ff91cef54bb04124b899f12176bee5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Textures/base-color-normal.png using Guid(ff91cef54bb04124b899f12176bee5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bed9ad6b6134139639da50b37c63a36e') in 0.095255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/wall_big_no_side_full_LOD0.fbx
+  artifactKey: Guid(10c805e783fd2d64f84bdbb6fae5d25f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/wall_big_no_side_full_LOD0.fbx using Guid(10c805e783fd2d64f84bdbb6fae5d25f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af81ba572686900754beb41c359d6127') in 0.044944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/shield_generator_rotor.fbx
+  artifactKey: Guid(d87e6b42fd353414cb31b1615da9d5d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/shield_generator_rotor.fbx using Guid(d87e6b42fd353414cb31b1615da9d5d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd5f8a413c0434829ce83ec21043f942') in 0.046990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/window_big_with_side_offset_LOD1.fbx
+  artifactKey: Guid(ea33750d8062a5f40853d5a678f98727) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/window_big_with_side_offset_LOD1.fbx using Guid(ea33750d8062a5f40853d5a678f98727) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8fafd7c0cff48b6ece3f2df6e13ab073') in 0.050888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/light_wall_1_blue.fbx
+  artifactKey: Guid(df2a0aea3cdc2bb49a0c359b09b0abdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/light_wall_1_blue.fbx using Guid(df2a0aea3cdc2bb49a0c359b09b0abdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8c33b6365717ce63ea4da39121c98cf') in 0.045976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/stairs_small.fbx
+  artifactKey: Guid(bd0a17be9280439418203fe96116cee6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/stairs_small.fbx using Guid(bd0a17be9280439418203fe96116cee6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e4f694aebafd3b6ee86dfa880bd01fa') in 0.047651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/window_big_with_side_full_offset_LOD0.fbx
+  artifactKey: Guid(dec2715a465c13a4fb11430962ea610f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/window_big_with_side_full_offset_LOD0.fbx using Guid(dec2715a465c13a4fb11430962ea610f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b63c6e58a0639fd2d29e9f23046ccf4b') in 0.047258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/stairs_small_no_emmision.fbx
+  artifactKey: Guid(38b52066b4ac23b48bc1af6d369ddcd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/stairs_small_no_emmision.fbx using Guid(38b52066b4ac23b48bc1af6d369ddcd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fef0840cd5197cdde72ae3c53e8f4dac') in 0.041452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/window_big_with_side_offset.fbx
+  artifactKey: Guid(3275015972f1ebd4ba5e1fc0b74fa66d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/window_big_with_side_offset.fbx using Guid(3275015972f1ebd4ba5e1fc0b74fa66d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '135034affac0bcee85b7f40dc1acbb6a') in 0.045008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/sing_small.fbx
+  artifactKey: Guid(7364b60afe0462741bed3c6b259737d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/sing_small.fbx using Guid(7364b60afe0462741bed3c6b259737d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de67929f4ac2b055303ecfa52f13d342') in 0.044980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/window_big_corner_far_plug.fbx
+  artifactKey: Guid(98bf02c8bc226a047b520b0e428a5703) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/window_big_corner_far_plug.fbx using Guid(98bf02c8bc226a047b520b0e428a5703) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e16e2d97af8d277230d4349b48c8f26e') in 0.047499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/table_2.fbx
+  artifactKey: Guid(05e2bef7f8188c943aea2993fc97504b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/table_2.fbx using Guid(05e2bef7f8188c943aea2993fc97504b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '990fcac12941b9510bc2f7f4461c0e4a') in 0.048268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/window_big_plug.fbx
+  artifactKey: Guid(f3bf6b5a90134a44c9aa28b43b484d59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/window_big_plug.fbx using Guid(f3bf6b5a90134a44c9aa28b43b484d59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '70d1cbdc607807d980a27b5fe84ce625') in 0.046856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Textures/second-color.png
+  artifactKey: Guid(35c79cc0b2e9d394faa8922409ffb64a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Textures/second-color.png using Guid(35c79cc0b2e9d394faa8922409ffb64a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ddc8e639a4984608a3fe263ea68bb001') in 0.060848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Textures/hologram texture.png
+  artifactKey: Guid(298751e2d47c6fc4dabd5e865463c5f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Textures/hologram texture.png using Guid(298751e2d47c6fc4dabd5e865463c5f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45e0bedf6006c6530456223b1e9460ae') in 0.047190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Go Systems/GoCharacterController/prefab/statue.prefab
+  artifactKey: Guid(1885a353e8faba645ae71a20cb16a12a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/prefab/statue.prefab using Guid(1885a353e8faba645ae71a20cb16a12a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82b4424befaa12fb3b45123a8dd119ac') in 0.121462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 855
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Go Systems/GoCharacterController/prefab/FoodSounds Test.prefab
+  artifactKey: Guid(a14399b8b4d422444a8ea54b19b68899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/prefab/FoodSounds Test.prefab using Guid(a14399b8b4d422444a8ea54b19b68899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e47e34f0aee4fb8c076e9d4b4c8e94c') in 0.026104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Go Systems/GoCharacterController/script/FootActions.cs
+  artifactKey: Guid(8fda561728384bf4e8a900c9e1682463) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/script/FootActions.cs using Guid(8fda561728384bf4e8a900c9e1682463) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2bc13315afb1eaae11d6b3f951e6d62b') in 0.028230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Go Systems/GoCharacterController/script/GCustomMonoBehaviourHeaderAttribute.cs
+  artifactKey: Guid(cd2d844ad61e6bc469ce946da14f7fb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/script/GCustomMonoBehaviourHeaderAttribute.cs using Guid(cd2d844ad61e6bc469ce946da14f7fb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56e0004c8047e3a86a88c8cfcb06fbcc') in 0.022235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Textures/coffee-color.png
+  artifactKey: Guid(0444929aa8d1adf45a0fe7c3c3c8d205) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Textures/coffee-color.png using Guid(0444929aa8d1adf45a0fe7c3c3c8d205) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ef01b3ac8c480586ca252676f6de5aa') in 0.045428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Go Systems/GoCharacterController/script/AudioSpeaker.cs
+  artifactKey: Guid(0bd4321647e14f54fa28605d19b6ad40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/script/AudioSpeaker.cs using Guid(0bd4321647e14f54fa28605d19b6ad40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f94f35af9e9a37c777d79e21d7c4de2e') in 0.020342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Go Systems/GoCharacterController/script/GoInputSystem.cs
+  artifactKey: Guid(ecf43d04986980c44b6e34cd047d9cd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/script/GoInputSystem.cs using Guid(ecf43d04986980c44b6e34cd047d9cd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f21d5023524bf14728ac53dd0734c39') in 0.023248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Go Systems/Add-On/Zipline/GoSystems character controler.pdf
+  artifactKey: Guid(10cb05f833a3a7547a83432d8740c327) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/Add-On/Zipline/GoSystems character controler.pdf using Guid(10cb05f833a3a7547a83432d8740c327) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f63126a1b5e8b3331acccdd23fcd4cd7') in 0.019216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/Sphere_16_extended.fbx
+  artifactKey: Guid(5dba31047b3c3764bb959e4b00c99740) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/Sphere_16_extended.fbx using Guid(5dba31047b3c3764bb959e4b00c99740) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f15aadafa49f525c5400eca54c50dac') in 0.047566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Textures/grey-color.png
+  artifactKey: Guid(5293294e5c42df8419dcb5492d2d0744) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Textures/grey-color.png using Guid(5293294e5c42df8419dcb5492d2d0744) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1910055db730dac745862a1a54978f7b') in 0.063326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Go Systems/GoCharacterController/script/GoRagdollController.cs
+  artifactKey: Guid(5dd01d6e858399d40b876e0ce9dc5114) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/script/GoRagdollController.cs using Guid(5dd01d6e858399d40b876e0ce9dc5114) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee848f89bab2d92d1bf372f3eed87dc6') in 0.022757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Textures/window_big_emission_mask.png
+  artifactKey: Guid(343596706f539db458d30dcc935523b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Textures/window_big_emission_mask.png using Guid(343596706f539db458d30dcc935523b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfa8f76a58644f6a58f3536bbd7d4983') in 0.043444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/computer_station.prefab
+  artifactKey: Guid(82c3b8fcabff82d4787f83e992e386df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/computer_station.prefab using Guid(82c3b8fcabff82d4787f83e992e386df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '855990d6543043760bd15557a5116ce6') in 0.038579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Example scenes/Materials/Sand.mat
+  artifactKey: Guid(d7ecd8db85bf61440b7ca5d302afd010) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Example scenes/Materials/Sand.mat using Guid(d7ecd8db85bf61440b7ca5d302afd010) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d9fa5729c38e2e9c12f442763558156') in 0.023131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/sing_small.prefab
+  artifactKey: Guid(fc67be85f7a8a16448d922881910dcf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/sing_small.prefab using Guid(fc67be85f7a8a16448d922881910dcf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03771d642af27b8d6ed9a254e4766c60') in 0.042811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/floor_corner_ornament_pipes.prefab
+  artifactKey: Guid(ae0c21b643679c045b98cb678e8abef5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/floor_corner_ornament_pipes.prefab using Guid(ae0c21b643679c045b98cb678e8abef5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6786f6c46e2e4fa949079a38856c654b') in 0.039105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/console_celing.prefab
+  artifactKey: Guid(104703105626daa4f8b3f24af487d01d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/console_celing.prefab using Guid(104703105626daa4f8b3f24af487d01d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd347f9ece048981f0eabcb18d8799b5f') in 0.036925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/Materials/base color.mat
+  artifactKey: Guid(1cf3cfed14637cd42a0ad3f801ebdb71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/Materials/base color.mat using Guid(1cf3cfed14637cd42a0ad3f801ebdb71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd168824cc40729cce8129f2cde3f384') in 0.025091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_table_glass.fbx
+  artifactKey: Guid(e022ff0c9dac29d48a070accea073e45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_table_glass.fbx using Guid(e022ff0c9dac29d48a070accea073e45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1b3066c6421f2d707d9a62b32d895c7') in 0.043315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/stairs_small_corner_with_emmision.fbx
+  artifactKey: Guid(7aea3c50060e0d446823b9a09fd0fb1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/stairs_small_corner_with_emmision.fbx using Guid(7aea3c50060e0d446823b9a09fd0fb1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f366a302b1a5e0907dbf95808574fdb') in 0.047349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SciFi_Space_Soldier/Prefabs/Space_Soldier_A_LOD1.prefab
+  artifactKey: Guid(ee13d518658eb2140a5cf1e59a3de544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Prefabs/Space_Soldier_A_LOD1.prefab using Guid(ee13d518658eb2140a5cf1e59a3de544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab40ac1f74110f28e203e6ea2ee79f79') in 0.049641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/decorative_chair.fbx
+  artifactKey: Guid(96bdbf948202cef43b00e20aa0e32a51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/decorative_chair.fbx using Guid(96bdbf948202cef43b00e20aa0e32a51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38fa72aedffad661a357f1df617e3996') in 0.041733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/light_wall_1.fbx
+  artifactKey: Guid(7f4bb4ae1f8094c47abdd09a12d0a39c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/light_wall_1.fbx using Guid(7f4bb4ae1f8094c47abdd09a12d0a39c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7757fbd9b36bb7f3e7fa01ff55ce574') in 0.049866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/cabinet_L.prefab
+  artifactKey: Guid(04ced07fc5a1dbb45906c40768747c8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/cabinet_L.prefab using Guid(04ced07fc5a1dbb45906c40768747c8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1f4f01c13fcffcf4046ab34a8785f0f') in 0.035343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/light_wall_3_blue.fbx
+  artifactKey: Guid(635460dae64fc0a48b0740cfb2e4f6d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/light_wall_3_blue.fbx using Guid(635460dae64fc0a48b0740cfb2e4f6d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2de4bcae900e63cc6d5c372c12e64dc6') in 0.042013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/sign.prefab
+  artifactKey: Guid(48f0889733d556d4a927a13a99a7f434) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/sign.prefab using Guid(48f0889733d556d4a927a13a99a7f434) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfb68bfadf38be67f665f5b1779fa51e') in 0.033153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_3_blue.prefab
+  artifactKey: Guid(8b5797a18349fb546be8acddc71151ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_3_blue.prefab using Guid(8b5797a18349fb546be8acddc71151ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c598d85f49dbcdb7fe8fe100d66c16ac') in 0.037433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Floors/floor_2_no_lattice.prefab
+  artifactKey: Guid(4e32615977c0a9f4688fa0d66b0a93e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Floors/floor_2_no_lattice.prefab using Guid(4e32615977c0a9f4688fa0d66b0a93e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '774c1c227bed8a293852b557082f9a6c') in 0.023483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines/projector stars.prefab
+  artifactKey: Guid(496fa247adc61d44ebaeaf9d72671287) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines/projector stars.prefab using Guid(496fa247adc61d44ebaeaf9d72671287) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f6f6cee1f905218a18f6c6345b624a1') in 0.044219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines/container_big.prefab
+  artifactKey: Guid(9d79238e340446545b920b58f2cd9574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines/container_big.prefab using Guid(9d79238e340446545b920b58f2cd9574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d2f2b729db23e6c0e04fffed9649d26') in 0.035402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_2.prefab
+  artifactKey: Guid(8e32be8f06ec06448ac537b609c2d7f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_2.prefab using Guid(8e32be8f06ec06448ac537b609c2d7f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd67e3388163ed0fda3dcb06ad1694250') in 0.036326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Animations/door_2_close.anim
+  artifactKey: Guid(b06aa8b1533418b46be1e3c548d78ff5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Animations/door_2_close.anim using Guid(b06aa8b1533418b46be1e3c548d78ff5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4dfe5fe681c2c782b5548fdd423e373') in 0.026684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/decorative_plant_small.prefab
+  artifactKey: Guid(a4b101bd1cf6bc9478190c1aa0f3d52e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/decorative_plant_small.prefab using Guid(a4b101bd1cf6bc9478190c1aa0f3d52e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f39dc619530636bf1ed49aa8320075af') in 0.038109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Floors/floor_2.prefab
+  artifactKey: Guid(6812e31ceb91fc04da03973c6b1054cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Floors/floor_2.prefab using Guid(6812e31ceb91fc04da03973c6b1054cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2bbb3c34972a33f084bb59d079a1b1eb') in 0.024738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Floors/floor_1.prefab
+  artifactKey: Guid(5bceb99c9fa1f2a4bb9692e518bec46c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Floors/floor_1.prefab using Guid(5bceb99c9fa1f2a4bb9692e518bec46c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03787e770e598e66996a0c5de1cc68c5') in 0.026061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Extended Primitives/Cylinder_16_extended.prefab
+  artifactKey: Guid(3f6d5a55a145f4f40bebd7d054c548f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Extended Primitives/Cylinder_16_extended.prefab using Guid(3f6d5a55a145f4f40bebd7d054c548f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41ddbbab64ab65a8f32c62136aa815fa') in 0.038724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Go Systems/GoCharacterController/script/ragdolleditor.cs
+  artifactKey: Guid(aecfb1bf4b0a3d34ca494f473bc82266) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/script/ragdolleditor.cs using Guid(aecfb1bf4b0a3d34ca494f473bc82266) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '359dd6fd546b91b341005e341d20b7c6') in 0.025849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Corridors/Corridor_1.prefab
+  artifactKey: Guid(f18932879bb23b84ca5370b65419ee41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Corridors/Corridor_1.prefab using Guid(f18932879bb23b84ca5370b65419ee41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ca2c6bd822e3f0414b6322444858c0b') in 0.032568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Extended Primitives/Cube_1x2_extended.prefab
+  artifactKey: Guid(20a37f90760425a44ad7a8650eecc7b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Extended Primitives/Cube_1x2_extended.prefab using Guid(20a37f90760425a44ad7a8650eecc7b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49719a9c631b3de39ea2834dd17a2645') in 0.033216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/pilot_seat.prefab
+  artifactKey: Guid(790e191d50e6fe249900e78369ae7986) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/pilot_seat.prefab using Guid(790e191d50e6fe249900e78369ae7986) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c71148ee64121545a4c1c775330b1fd') in 0.034197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines/container_small.prefab
+  artifactKey: Guid(6456a4784f31cab439d29b7e3bb286a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines/container_small.prefab using Guid(6456a4784f31cab439d29b7e3bb286a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '493f3a89f0f4e9467a687316dd7baf42') in 0.035702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_1.prefab
+  artifactKey: Guid(ef77650fcc7dfd64a8d614922d90c382) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_1.prefab using Guid(ef77650fcc7dfd64a8d614922d90c382) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9a20e680d8ae2db4a82fefcb592bd18') in 0.028577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_corner_far_plug.prefab
+  artifactKey: Guid(78417f9c0e3bda049a9a38dad7104d45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_corner_far_plug.prefab using Guid(78417f9c0e3bda049a9a38dad7104d45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a960f5f6930237a464e27b7d5a8160da') in 0.039751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_supplement.prefab
+  artifactKey: Guid(0f6d27018f3822b4f871d6e402510f77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_supplement.prefab using Guid(0f6d27018f3822b4f871d6e402510f77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc39fddef943183923b462d86859c8cc') in 0.033792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-11_comp_dir.png
+  artifactKey: Guid(29620f63fad03bc4f9f44ecf8a389dac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-11_comp_dir.png using Guid(29620f63fad03bc4f9f44ecf8a389dac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc2e4d6de1c4c185a05c2af44218df6a') in 0.044997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/glass_panel_1.prefab
+  artifactKey: Guid(a5cd29a93d7ae2d488fa0376d0d08462) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/glass_panel_1.prefab using Guid(a5cd29a93d7ae2d488fa0376d0d08462) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f9495b0f598ea09193e02e4a4d4bea4') in 0.035202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_corner.prefab
+  artifactKey: Guid(b3ba71d7c63addc49b57e4c8e35af826) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_corner.prefab using Guid(b3ba71d7c63addc49b57e4c8e35af826) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe3efe357978ac8f1ea462df7a066e82') in 0.033014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-13_comp_dir.png
+  artifactKey: Guid(c68be72e507db2640a710c91949ed41a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-13_comp_dir.png using Guid(c68be72e507db2640a710c91949ed41a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38de7f0cbd2ddf742bc997d8413975de') in 0.045169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-17_comp_dir.png
+  artifactKey: Guid(f2e98802b0143074cab62cf595cb15ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-17_comp_dir.png using Guid(f2e98802b0143074cab62cf595cb15ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'efc23a5a323241a8711264d7b24cc056') in 0.045986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-11_comp_shadowmask.png
+  artifactKey: Guid(85b5e79399da33649806931ac776fbcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-11_comp_shadowmask.png using Guid(85b5e79399da33649806931ac776fbcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b3557f8c755926733243b8fd42f5682') in 0.044366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_5.prefab
+  artifactKey: Guid(339299a7e2fdedf47b7788ab1a25c9df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_5.prefab using Guid(339299a7e2fdedf47b7788ab1a25c9df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9282ecd522492bac76c5aa47f60cb3b2') in 0.036258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-17_comp_shadowmask.png
+  artifactKey: Guid(3802a3fadf7199046a9eb54fd7cb557c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-17_comp_shadowmask.png using Guid(3802a3fadf7199046a9eb54fd7cb557c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '102235a2edfe92445aa30237fffec72d') in 0.056889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_plug.prefab
+  artifactKey: Guid(d087389d05d4d7e44922758971ced6af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_plug.prefab using Guid(d087389d05d4d7e44922758971ced6af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fecf0138b16b9b14f8ac5ac7a4b8a4f2') in 0.040934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-13_comp_shadowmask.png
+  artifactKey: Guid(f479ab82e811de842a761a280777d07a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-13_comp_shadowmask.png using Guid(f479ab82e811de842a761a280777d07a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a683ef16d96d5f186559cf5b8d51298c') in 0.045358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-29_comp_shadowmask.png
+  artifactKey: Guid(3b014e59b0d97e0458cde0b0cd59626f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-29_comp_shadowmask.png using Guid(3b014e59b0d97e0458cde0b0cd59626f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '243483885b3c9053893f28fef1613017') in 0.042355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-1_comp_light.exr
+  artifactKey: Guid(3756135faa517af44a5884ea8328d186) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-1_comp_light.exr using Guid(3756135faa517af44a5884ea8328d186) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80814b891bac75a546ae0ec94f208ba0') in 0.044634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-34_comp_dir.png
+  artifactKey: Guid(b3037b23d39786042bf5bcb70fb0caa2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-34_comp_dir.png using Guid(b3037b23d39786042bf5bcb70fb0caa2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f16e32369d4902bc5269e8ebd42da247') in 0.045475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-20_comp_shadowmask.png
+  artifactKey: Guid(7a81d0c8ee4ec7e4d979806d2d18cf59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-20_comp_shadowmask.png using Guid(7a81d0c8ee4ec7e4d979806d2d18cf59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '053ffe8f3c33c6c1c56181c2797336ac') in 0.047936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-27_comp_dir.png
+  artifactKey: Guid(fb594517f09175f48af595b279d629b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-27_comp_dir.png using Guid(fb594517f09175f48af595b279d629b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1986ad6b77c9b401af4e978d28373c65') in 0.049539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-28_comp_shadowmask.png
+  artifactKey: Guid(a5f3f157c8423194b80389e0277bfda8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-28_comp_shadowmask.png using Guid(a5f3f157c8423194b80389e0277bfda8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '826d5b4a73d23f363588ed2928fece93') in 0.046115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-32_comp_dir.png
+  artifactKey: Guid(cdd19794bb8bf6547843694610dd4308) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-32_comp_dir.png using Guid(cdd19794bb8bf6547843694610dd4308) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6559a39f0b7517d3dbb54d354d4d271e') in 0.050893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-21_comp_dir.png
+  artifactKey: Guid(ca9306d703ea70c40aa6bb52ed572d4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-21_comp_dir.png using Guid(ca9306d703ea70c40aa6bb52ed572d4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2bbb9a35b05038864f70eba2b7f53ebc') in 0.045857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-25_comp_light.exr
+  artifactKey: Guid(6939302e428ce7b4cb4dec1d1d711eb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-25_comp_light.exr using Guid(6939302e428ce7b4cb4dec1d1d711eb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46aadd67142c1fa540a8b2ad88a50f4b') in 0.044739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-22_comp_dir.png
+  artifactKey: Guid(2dd74a65b70973b4bbbd4fcb40f4cb23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-22_comp_dir.png using Guid(2dd74a65b70973b4bbbd4fcb40f4cb23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05a95a5ca04a34a3e31b1db2768dd8c5') in 0.047886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-30_comp_shadowmask.png
+  artifactKey: Guid(eacfbbb85882a18468c101357c6d6fc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-30_comp_shadowmask.png using Guid(eacfbbb85882a18468c101357c6d6fc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b850ce2d85a8d175e4a05ed9a8d69539') in 0.045067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-45_comp_shadowmask.png
+  artifactKey: Guid(d4f7eb1fe865d5a458cc15ea10d1a468) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-45_comp_shadowmask.png using Guid(d4f7eb1fe865d5a458cc15ea10d1a468) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f9fe126f9ef813a810610e759adbb59') in 0.042282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-40_comp_light.exr
+  artifactKey: Guid(57ebea77972032d4b91d4665d3e7500c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-40_comp_light.exr using Guid(57ebea77972032d4b91d4665d3e7500c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad37f5f6469b6ee6a7b528fe084c69d7') in 0.044545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-46_comp_shadowmask.png
+  artifactKey: Guid(9686be41b132fec4b831bb197f6d091c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-46_comp_shadowmask.png using Guid(9686be41b132fec4b831bb197f6d091c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82dadca9820ad2f504285085e54fa37f') in 0.041836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-44_comp_light.exr
+  artifactKey: Guid(7f4d1a15056059f4b88b95b9964d13c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-44_comp_light.exr using Guid(7f4d1a15056059f4b88b95b9964d13c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95a7435c3b08e8b9a9dc149a4a520e73') in 0.048350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-3_comp_dir.png
+  artifactKey: Guid(82fc4e74175fe11488a774864071e60a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-3_comp_dir.png using Guid(82fc4e74175fe11488a774864071e60a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf27520e015eb756372de713bd4545fb') in 0.049617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-42_comp_shadowmask.png
+  artifactKey: Guid(7951df811c42f894f9f4178e85f7c5d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-42_comp_shadowmask.png using Guid(7951df811c42f894f9f4178e85f7c5d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '790c827875222c63ce5f990a15548664') in 0.046196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-42_comp_dir.png
+  artifactKey: Guid(b803588494ede264a899b503e7619555) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-42_comp_dir.png using Guid(b803588494ede264a899b503e7619555) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78fa51c072dfc90e70e817ec3d10380b') in 0.051694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-38_comp_light.exr
+  artifactKey: Guid(d2ae1ec3508539647a27e9c6426d4fd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-38_comp_light.exr using Guid(d2ae1ec3508539647a27e9c6426d4fd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f14797d6df6c2bd94a51eebb8c919d3') in 0.049648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-23_comp_dir.png
+  artifactKey: Guid(2af7732f44fb41647b972feec4ffc795) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-23_comp_dir.png using Guid(2af7732f44fb41647b972feec4ffc795) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '244343c67299a393bd61ccb4da5d37a0') in 0.049994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-46_comp_light.exr
+  artifactKey: Guid(a379e8db76d1cfd4baabae773c9ae5a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-46_comp_light.exr using Guid(a379e8db76d1cfd4baabae773c9ae5a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5060ab7c6ea07e53c5b17b6a78a41048') in 0.049641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/ReflectionProbe-0.exr
+  artifactKey: Guid(911a7b5347a8d6246be7ae97f625a7dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/ReflectionProbe-0.exr using Guid(911a7b5347a8d6246be7ae97f625a7dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '534bfb1e0a6fd5dd57310aa6d0c1520d') in 0.052077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-5_comp_light.exr
+  artifactKey: Guid(dc4dadac7605e1545bec4f5858abdcf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-5_comp_light.exr using Guid(dc4dadac7605e1545bec4f5858abdcf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e3d15b0335beab75638add1428bb608') in 0.045656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Go Systems/GoCharacterController/models/materal/M_BT.mat
+  artifactKey: Guid(fa54559d71f1e9440ace0359b79958ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/models/materal/M_BT.mat using Guid(fa54559d71f1e9440ace0359b79958ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'edf6aa6b13c0c2c91e12db5d0642ed1d') in 0.056083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-48_comp_dir.png
+  artifactKey: Guid(d36317120fde2e0418acb21431a7c1d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-48_comp_dir.png using Guid(d36317120fde2e0418acb21431a7c1d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98852ef636068809b3e04cf84f263ccb') in 0.082207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-8_comp_dir.png
+  artifactKey: Guid(7bc118aba48b4014bb04c655b505d784) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-8_comp_dir.png using Guid(7bc118aba48b4014bb04c655b505d784) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc7aab7d7b4e2b6c4cc3b273a590af4f') in 0.053419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Go Systems/GoCharacterController/models/materal/M_Plan.mat
+  artifactKey: Guid(50f06efa40ea3b24790bf3e4ee409d74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/models/materal/M_Plan.mat using Guid(50f06efa40ea3b24790bf3e4ee409d74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4577240ceeff6b4412756ebfd6a0bda9') in 0.038007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Go Systems/GoCharacterController/models/materal/M_orT.mat
+  artifactKey: Guid(8c222e396d80ac44ab0b55ac7fb0a170) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/models/materal/M_orT.mat using Guid(8c222e396d80ac44ab0b55ac7fb0a170) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04a2c4fbae5b9f653f19f79bffa5cf62') in 0.061170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-48_comp_shadowmask.png
+  artifactKey: Guid(4680bfba211bea44a8838da13b3ab6f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-48_comp_shadowmask.png using Guid(4680bfba211bea44a8838da13b3ab6f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d37022aa266960cc3bd67c4aec4801c') in 0.058933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Go Systems/GoCharacterController/models/materal/M_or.mat
+  artifactKey: Guid(c07553a3894c09b46a5eb7751200d61a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/models/materal/M_or.mat using Guid(c07553a3894c09b46a5eb7751200d61a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da500f8e04ade5c8c0f52243b95485e6') in 0.022572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Go Systems/GoCharacterController/models/materal/M_red.mat
+  artifactKey: Guid(1e5ff2a1e613cca4da71a82252214a99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/models/materal/M_red.mat using Guid(1e5ff2a1e613cca4da71a82252214a99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50b40e342c5d4af8a74deb679531d0de') in 0.021472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-9_comp_light.exr
+  artifactKey: Guid(cd4c46233eabd1d4c812cbc28cf659fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-9_comp_light.exr using Guid(cd4c46233eabd1d4c812cbc28cf659fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'effa82f7e6fe1445dd8845fc959ec7d5') in 0.044421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Go Systems/GoCharacterController/Sounds/ZipLine/End Zipline Sound Effect.wav
+  artifactKey: Guid(6b508cd7f8c7202458ac3fe911206756) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/Sounds/ZipLine/End Zipline Sound Effect.wav using Guid(6b508cd7f8c7202458ac3fe911206756) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c134aced2caaa1b1a0440bc2456b53a') in 0.107531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Half walls/decorative_half_wall_3_LOD.prefab
+  artifactKey: Guid(9cf71dac1b15d4546836049ad611cbc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Half walls/decorative_half_wall_3_LOD.prefab using Guid(9cf71dac1b15d4546836049ad611cbc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '752493702c2b63460f3073cce280ea50') in 0.034242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Go Systems/GoCharacterController/Sounds/walk Woold/walk 1.wav
+  artifactKey: Guid(8b194569640f8d44dad551adbc63b7ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/Sounds/walk Woold/walk 1.wav using Guid(8b194569640f8d44dad551adbc63b7ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51ef0bdcfd7593e8b9ad81febf7c791b') in 0.116048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Go Systems/GoCharacterController/Sounds/walk dirt/walk dirt 2.wav
+  artifactKey: Guid(1cf4ddf7a2649f64bb0c3228f51f98ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/Sounds/walk dirt/walk dirt 2.wav using Guid(1cf4ddf7a2649f64bb0c3228f51f98ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19d1262c9b5ec40a90fd474713952db5') in 0.107854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Tables/table_2.prefab
+  artifactKey: Guid(6ffa7d55296318341acf5521f4bbae00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Tables/table_2.prefab using Guid(6ffa7d55296318341acf5521f4bbae00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62c34990de1f239f9a30f3f49de0cf9f') in 0.034886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Tables/decorative_table_glass.prefab
+  artifactKey: Guid(74f8de2ddfdb61644af2f84484b176a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Tables/decorative_table_glass.prefab using Guid(74f8de2ddfdb61644af2f84484b176a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbdda733730bbde0baad00733faac964') in 0.035391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Arts/art_2.prefab
+  artifactKey: Guid(df1cac3988f7cf841b2b0afc88ea5e26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Arts/art_2.prefab using Guid(df1cac3988f7cf841b2b0afc88ea5e26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29df81b1be2f4f07720a272916368267') in 0.027710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Arts/art_4.prefab
+  artifactKey: Guid(d958a3a196d271942ba6a229a5d5ccd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Arts/art_4.prefab using Guid(d958a3a196d271942ba6a229a5d5ccd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5311cfe70dd3222d5b2891a46f11e693') in 0.024594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Half walls/decorative_half_wall_2_LOD.prefab
+  artifactKey: Guid(73b9a287a502a0d44ba093849abc1ed1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Half walls/decorative_half_wall_2_LOD.prefab using Guid(73b9a287a502a0d44ba093849abc1ed1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20a370f913da1b78f9217e9432e28fbe') in 0.041989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Materials/M_Soldier_A_Head.mat
+  artifactKey: Guid(568d24ae65d697a4089c4a486b0cc0bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Materials/M_Soldier_A_Head.mat using Guid(568d24ae65d697a4089c4a486b0cc0bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e73ac25fb937f4befc5a40f42de646e') in 0.038253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Materials/M_Soldier_C_Head.mat
+  artifactKey: Guid(7edb55f16f8f0ca45b1babcbd2960aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Materials/M_Soldier_C_Head.mat using Guid(7edb55f16f8f0ca45b1babcbd2960aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf0d6ddd222316eff716df8c39b34041') in 0.050776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/Complete Windows/window_big_blocker.prefab
+  artifactKey: Guid(32234a5734d32f644adeeabac5c5b8ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/Complete Windows/window_big_blocker.prefab using Guid(32234a5734d32f644adeeabac5c5b8ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '440aa59034c2cd015c333842d66ac624') in 0.037483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Simple/blank_wall_A.prefab
+  artifactKey: Guid(e37a5396a520a8e4e8e48c74975b6a61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Simple/blank_wall_A.prefab using Guid(e37a5396a520a8e4e8e48c74975b6a61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e723ad91c7bc20aeb2d3cb94092c29b1') in 0.037695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Materials/M_Soldier_C_Torso.mat
+  artifactKey: Guid(6c647f2f3fc22124884c94e33905e92e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Materials/M_Soldier_C_Torso.mat using Guid(6c647f2f3fc22124884c94e33905e92e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '564dc506c623bc2b8b17b3c968d1c9c7') in 0.047135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Simple/decorative_wall_E.prefab
+  artifactKey: Guid(c70dd99c5cd1cbf4c9b8f226c3284b85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Simple/decorative_wall_E.prefab using Guid(c70dd99c5cd1cbf4c9b8f226c3284b85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41428aef7144076d27659f50cff8de4d') in 0.035782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Simple/decorative_wall_G.prefab
+  artifactKey: Guid(7f83c849ebc7c304e8ffbc4bfe60857a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Simple/decorative_wall_G.prefab using Guid(7f83c849ebc7c304e8ffbc4bfe60857a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4452d850d8bcd97ca2a7ffb598945d0e') in 0.037224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/Complete Windows/window_big_corner_blocker.prefab
+  artifactKey: Guid(c84375fce06f8f146a371128360dd36f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/Complete Windows/window_big_corner_blocker.prefab using Guid(c84375fce06f8f146a371128360dd36f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4a3b8bbbfb8e163f491d4769b6c7e51') in 0.034033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Go Systems/GoCharacterController/script/Editor/GO.png
+  artifactKey: Guid(944aa3a5f35d4bf419c60cab7debe7aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/script/Editor/GO.png using Guid(944aa3a5f35d4bf419c60cab7debe7aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6cca43f04665c32fd10a12d00c88fae') in 0.060764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_2.prefab
+  artifactKey: Guid(bf2139b42b42c8c4a96e509af12fe05d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_2.prefab using Guid(bf2139b42b42c8c4a96e509af12fe05d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74b19896917261af4c52d00e506ab900') in 0.028554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-29_comp_dir.png
+  artifactKey: Guid(eec26b7d72e863b4ba9ea9677aad7464) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-29_comp_dir.png using Guid(eec26b7d72e863b4ba9ea9677aad7464) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f079da7245ce9067797ffb9e2e99f99') in 0.043213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/column_kneel.fbx
+  artifactKey: Guid(9eee1c765d8a58342beec1835ce7ce64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/column_kneel.fbx using Guid(9eee1c765d8a58342beec1835ce7ce64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a28fb7a4cc278305e3a5e66eef558301') in 0.032684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Legs_CM.tga
+  artifactKey: Guid(9f5f5179be622b241b9c2d46c62754bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Legs_CM.tga using Guid(9f5f5179be622b241b9c2d46c62754bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55d382f67e97f06d8be0528491ca6346') in 0.045520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Go Systems/GoCharacterController/models/textures/R52 textures/R52n_-_Body_Texture_Body_MetallicSmoothn.png
+  artifactKey: Guid(2123e7ad046f0b24b8226c7d696070f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/models/textures/R52 textures/R52n_-_Body_Texture_Body_MetallicSmoothn.png using Guid(2123e7ad046f0b24b8226c7d696070f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58b863c293480ab0cdea5904e58de804') in 0.056153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Go Systems/GoCharacterController/models/textures/R52 textures/Zerryn - Body Texture_Body_AlbedoTransparency 1.png
+  artifactKey: Guid(23ca214844bfce94aba2e4125de70dc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/models/textures/R52 textures/Zerryn - Body Texture_Body_AlbedoTransparency 1.png using Guid(23ca214844bfce94aba2e4125de70dc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '594a8650dbd383dae7b06d8472db903a') in 0.054189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Go Systems/GoCharacterController/models/textures/R52 textures/R52n_-_Legs_Texture_Legs_Normal.png
+  artifactKey: Guid(1b1cc04ffc3eb3f47b0eeec5ab4d3415) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/models/textures/R52 textures/R52n_-_Legs_Texture_Legs_Normal.png using Guid(1b1cc04ffc3eb3f47b0eeec5ab4d3415) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1aecd1613557f3f0b66e11e7763496bf') in 0.056333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Go Systems/GoCharacterController/animation/animationCharcter/Locomotion/Idel.fbx
+  artifactKey: Guid(58a8bf1c1e28efb47a302c3cfe087e80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/animation/animationCharcter/Locomotion/Idel.fbx using Guid(58a8bf1c1e28efb47a302c3cfe087e80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b516849d43bc3c49aecd39cc0795c4d2') in 0.062828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 519
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Torso_E.tga
+  artifactKey: Guid(c027c74c41f9a3f4f9dcd1e76f8f8672) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Torso_E.tga using Guid(c027c74c41f9a3f4f9dcd1e76f8f8672) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa845164c2fe97e848131c6ce14b2574') in 0.054380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Go Systems/GoCharacterController/models/textures/R52 textures/R52n_-_Head_Texture_Head_AO.png
+  artifactKey: Guid(eb86ee62a2ed25b41b1f28a2b4f975fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/models/textures/R52 textures/R52n_-_Head_Texture_Head_AO.png using Guid(eb86ee62a2ed25b41b1f28a2b4f975fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b8399a6044c5b2bd71264d8b217c5853') in 0.055922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Go Systems/GoCharacterController/animation/animationCharcter/Locomotion/Run.fbx
+  artifactKey: Guid(963b35f77145ad74aae779e6e0deed22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/animation/animationCharcter/Locomotion/Run.fbx using Guid(963b35f77145ad74aae779e6e0deed22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84126a9cb681c377a41f251a24b0a69d') in 0.066304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 519
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Go Systems/GoCharacterController/models/textures/Livel/Untitled-10.png
+  artifactKey: Guid(a48840dc29d0c1046b546831ff71ea35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/models/textures/Livel/Untitled-10.png using Guid(a48840dc29d0c1046b546831ff71ea35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c4264a4ea2b14bab4e2e0c666e94f41') in 0.051564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Go Systems/GoCharacterController/models/textures/Livel/Untitled-2 1.png
+  artifactKey: Guid(b0b1562a886b3704fa481fae23efe846) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/models/textures/Livel/Untitled-2 1.png using Guid(b0b1562a886b3704fa481fae23efe846) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0e324d8990705df09d27afdfc646f72') in 0.053641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Go Systems/GoCharacterController/script/Editor/Resources/youtube.png
+  artifactKey: Guid(f10d7d0dcc8bb4e4097c65c608f2e83e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/script/Editor/Resources/youtube.png using Guid(f10d7d0dcc8bb4e4097c65c608f2e83e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69e20533eb7de950ccd5b95e39ccbb79') in 0.053513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Inplace/Soldier@Rifle_Run_F.FBX
+  artifactKey: Guid(4ace1b31163ea69459d19219f3966699) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Inplace/Soldier@Rifle_Run_F.FBX using Guid(4ace1b31163ea69459d19219f3966699) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d8d26cc98ebc54e2cb04146b8881242') in 0.062540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_RootMotion/Soldier@Rifle_Aiming_Walk_B_RM.FBX
+  artifactKey: Guid(982a0ecc9c78b274facf6f28e340a337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_RootMotion/Soldier@Rifle_Aiming_Walk_B_RM.FBX using Guid(982a0ecc9c78b274facf6f28e340a337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c65e2ceeba89c70abd81b63a7c90a42') in 0.065669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Inplace/Soldier@Rifle_Idle.FBX
+  artifactKey: Guid(46b28d6574c1af441a7d58ce17a3c78c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Inplace/Soldier@Rifle_Idle.FBX using Guid(46b28d6574c1af441a7d58ce17a3c78c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0e8056097bf009e5511fad0ac815264') in 0.067725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Actions/Soldier@PickupObject.FBX
+  artifactKey: Guid(50388f91089043b458e02917df32b4bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Actions/Soldier@PickupObject.FBX using Guid(50388f91089043b458e02917df32b4bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb3c64cb077094a364efb76b47e21740') in 0.063798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_RootMotion/Soldier@Rifle_Aiming_Walk_F_RM.FBX
+  artifactKey: Guid(6dc89f2601958ab4897c68dea7836a24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_RootMotion/Soldier@Rifle_Aiming_Walk_F_RM.FBX using Guid(6dc89f2601958ab4897c68dea7836a24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87bed6f8f7a4236d8f5934662e01bad4') in 0.064850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Go Systems/GoCharacterController/models/textures/R52 textures/R52 - Head Texture_Head_Emission.png
+  artifactKey: Guid(f4a2c817dca4f4f4e9313f1bc216024a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/models/textures/R52 textures/R52 - Head Texture_Head_Emission.png using Guid(f4a2c817dca4f4f4e9313f1bc216024a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9220c06bb98d765db2b24d35674d85b6') in 0.046185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Go Systems/GoCharacterController/models/textures/Ui/buttons.png
+  artifactKey: Guid(a13b16eaa11bf23458414b4505f3df0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/models/textures/Ui/buttons.png using Guid(a13b16eaa11bf23458414b4505f3df0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02c27516ffac13b156ea542f64ee2bdd') in 0.051704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/Textures/T_Weapon_Rifle_1_E.png
+  artifactKey: Guid(e15efdfa6cbfd86429b408c7921dcb31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/Textures/T_Weapon_Rifle_1_E.png using Guid(e15efdfa6cbfd86429b408c7921dcb31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53d46aa48740e3b510a346f3f209f986') in 0.054067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Go Systems/GoCharacterController/animation/animationCharcter/Locomotion/Crouch/Crouch To Standing.fbx
+  artifactKey: Guid(62610b09fce85ec469bca3dc00659489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/animation/animationCharcter/Locomotion/Crouch/Crouch To Standing.fbx using Guid(62610b09fce85ec469bca3dc00659489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0130da2abc900909ba3aed9e2fa3cc3') in 0.074645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 519
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Go Systems/GoCharacterController/animation/animationCharcter/Locomotion/Crouch/Crouch Walk Forward.fbx
+  artifactKey: Guid(e62821d7d14b4b94885a75a68cf788eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/animation/animationCharcter/Locomotion/Crouch/Crouch Walk Forward.fbx using Guid(e62821d7d14b4b94885a75a68cf788eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb6fa9998df4750324cf5404371602b4') in 0.068663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 521
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Go Systems/GoCharacterController/script/Editor/Resources/call-of-ops-duty/CooD.png
+  artifactKey: Guid(28059c2f08eae504c9fa0258e4b78227) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/script/Editor/Resources/call-of-ops-duty/CooD.png using Guid(28059c2f08eae504c9fa0258e4b78227) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3edd4da6b4f0b1797fef35111979d13c') in 0.050500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/Meshes/Weapon_Rifle_1_LOD1.FBX
+  artifactKey: Guid(fb4303299c8780d47a710c146d4246f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/Meshes/Weapon_Rifle_1_LOD1.FBX using Guid(fb4303299c8780d47a710c146d4246f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '947015e47bb9f539c6693f6fa7676673') in 0.053659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Go Systems/GoCharacterController/script/Editor/Resources/call-of-ops-duty/CallOfOpsDuty.otf
+  artifactKey: Guid(547c7034999ef1c4a9fdabc68e4c5417) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/script/Editor/Resources/call-of-ops-duty/CallOfOpsDuty.otf using Guid(547c7034999ef1c4a9fdabc68e4c5417) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd920d35504f4cbff54dcabf02899c36e') in 0.042612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Go Systems/GoCharacterController/animation/animationCharcter/Locomotion/Crouch/Crouch Pose.fbx
+  artifactKey: Guid(899d2fff8f7abe64b82148890c07fcaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/animation/animationCharcter/Locomotion/Crouch/Crouch Pose.fbx using Guid(899d2fff8f7abe64b82148890c07fcaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e90bcf8b3daf3b2991486f91f5a88a75') in 0.070592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 519
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/Textures/T_Weapon_Rifle_1_D.png
+  artifactKey: Guid(2b6e53757cdaea64c8cb8f8d88381ab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/Textures/T_Weapon_Rifle_1_D.png using Guid(2b6e53757cdaea64c8cb8f8d88381ab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe4df9fcc42a392086f348e591c8f2e5') in 0.045549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-2_comp_light.exr
+  artifactKey: Guid(db28b54aebb23ee48921b68acdd2be8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-2_comp_light.exr using Guid(db28b54aebb23ee48921b68acdd2be8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1970a1d80f37d0bd303423ca05c295be') in 0.047370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-16_comp_light.exr
+  artifactKey: Guid(a6bf24e26f575c34b9a471de83de284d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-16_comp_light.exr using Guid(a6bf24e26f575c34b9a471de83de284d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e0bf55924313c82f1599313ff5d9b56') in 0.054071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-34_comp_light.exr
+  artifactKey: Guid(73aeef0e5a881044295133c40a47b654) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-34_comp_light.exr using Guid(73aeef0e5a881044295133c40a47b654) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '368ba47df7e89f2e7afc4357b3d12921') in 0.046618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big.prefab
+  artifactKey: Guid(20373c6cd77ef3840af30d9c058fbee7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big.prefab using Guid(20373c6cd77ef3840af30d9c058fbee7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37af9e6aedbd0175ed2f8398f15f98ce') in 0.037910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-38_comp_dir.png
+  artifactKey: Guid(14bf115ee34329249825ba4f8d3d0bc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-38_comp_dir.png using Guid(14bf115ee34329249825ba4f8d3d0bc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b415d6c7b1ae1f3e84c29ccf92d52a2') in 0.048036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Inplace/Soldier@Rifle_Walk_F.FBX
+  artifactKey: Guid(619360461288c4a40867a79019cdd4b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Inplace/Soldier@Rifle_Walk_F.FBX using Guid(619360461288c4a40867a79019cdd4b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af7c9e5f76af3bd6a2ca7e5423fc05bf') in 0.065440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Go Systems/GoCharacterController/script/GoSystems.cs
+  artifactKey: Guid(0f40a0a0dd478844eaa043b1ace3488f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/script/GoSystems.cs using Guid(0f40a0a0dd478844eaa043b1ace3488f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82c2eee3531f880631f0402fb5db1c49') in 0.024759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Go Systems/GoCharacterController/prefab/BallSwing.prefab
+  artifactKey: Guid(0a875e1167ab00348a78c9ac68105614) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/prefab/BallSwing.prefab using Guid(0a875e1167ab00348a78c9ac68105614) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97bf2068d37800f7ecc5084d327d05c7') in 0.024637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/art_2.fbx
+  artifactKey: Guid(ac4b748f8929540418552255a129f014) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/art_2.fbx using Guid(ac4b748f8929540418552255a129f014) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5216183b5910bd44c7f629c483869689') in 0.036898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Go Systems/GoCharacterController/Sounds/walk dirt/Metal Step 3.wav
+  artifactKey: Guid(52c158d731cfe3c4daf4e42f7aa9341f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/Sounds/walk dirt/Metal Step 3.wav using Guid(52c158d731cfe3c4daf4e42f7aa9341f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb4719cf4953d667efc971a0d52e963d') in 0.119098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines/storage_container_small.prefab
+  artifactKey: Guid(777d150aa6d8e1d48bcaea831bed7072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines/storage_container_small.prefab using Guid(777d150aa6d8e1d48bcaea831bed7072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e13a2b2361ed5a45d261ac48276a80cb') in 0.037245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Go Systems/GoCharacterController/script/ControlSetting.cs
+  artifactKey: Guid(934b34cff3e22dd458b014abc1309ad4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/script/ControlSetting.cs using Guid(934b34cff3e22dd458b014abc1309ad4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40587aa4eaf0f09c58dd52d65909add6') in 0.022420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-1_comp_dir.png
+  artifactKey: Guid(95c651454f9809c4e99177e13e986f87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-1_comp_dir.png using Guid(95c651454f9809c4e99177e13e986f87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5818ce02837a71d7995721d36eb8510f') in 0.044810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-8_comp_shadowmask.png
+  artifactKey: Guid(d07925f7921447142a4c30de7f2672a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-8_comp_shadowmask.png using Guid(d07925f7921447142a4c30de7f2672a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2360e6809c8b83b49cf4c5be6611fa91') in 0.047891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
